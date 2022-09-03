@@ -10,13 +10,13 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <IconButton> <a href='https://www.linkedin.com/in/ricky-pethick-449a82244/'>
+        <IconButton> <a href='https://www.linkedin.com/in/ricky-pethick-449a82244/'target='blank'>
         <LinkedInIcon />
         </a>
-        <a href= 'mailto:rpethick0207@gmail.com?subject=subject text'>
+        <a href= 'mailto:rpethick0207@gmail.com?subject=subject text'target='blank'>
         <EmailIcon />
         </a>
-        <a href = 'https://github.com/rpethick0207'>
+        <a href = 'https://github.com/rpethick0207'target='blank'>
         <GithubIcon />
         </a>
         </IconButton>

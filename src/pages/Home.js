@@ -1,7 +1,4 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 
 
@@ -13,9 +10,7 @@ function Home() {
         <h2> Hi, My Name is Richard</h2>
         <div className="prompt">
           <p>Novice Full Stack Web Developer</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+        
         </div>
       </div>
       <div className="skills">
