@@ -1,8 +1,7 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
-import IconButton from '@material-ui/core/IconButton';
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faLinkedin,faGithub} from "@fortawesome/free-brands-svg-icons";
+import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import "../styles/Footer.css";
 
 
@@ -10,16 +9,15 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <IconButton> <a href='https://www.linkedin.com/in/ricky-pethick-449a82244/'target='blank'>
-        <LinkedInIcon />
+      <a href ="https://www.linkedin.com/in/ricky-pethick-449a82244/" target="blank">
+        <FontAwesomeIcon icon={faLinkedin}/> 
         </a>
-        <a href= 'mailto:rpethick0207@gmail.com?subject=subject text'target='blank'>
-        <EmailIcon />
+        <a href ="https://github.com/rpethick0207" target="blank">
+        <FontAwesomeIcon icon={faGithub}/>
         </a>
-        <a href = 'https://github.com/rpethick0207'target='blank'>
-        <GithubIcon />
+        <a href ="mailto:rpethick0207@gmail.com" target="blank">
+        <FontAwesomeIcon icon={faEnvelope}/>
         </a>
-        </IconButton>
       </div>
       <p> &copy; 2022 Richard Pethick</p>
     </div>

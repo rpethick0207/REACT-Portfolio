@@ -4,7 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@material-ui/icons/School";
+import {faGraduationCap} from "@fortawesome/free-solid-svg-icons";
 
 //Function for Education experince 
 function Experience() {
@@ -15,7 +15,7 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="2017-2021"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
+          icon={faGraduationCap}
         >
           <h3 className="vertical-timeline-element-title">
             East Haven Highscool, East Haven, CT
@@ -26,7 +26,7 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="2022"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
+          icon={faGraduationCap}
         >
           <h3 className="vertical-timeline-element-title">
             UCONN Full Stack Developer Bootcamp
