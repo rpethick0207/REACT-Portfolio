@@ -1,5 +1,7 @@
 import Proj1 from "../assets/congressconfidential.png";
+
 // import Proj2 from "../assets/proj2.jpg";
+
 import Proj3 from "../assets/aroundtown.png";
 
 
