@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 
-
+// Navbar function
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
 
@@ -23,6 +23,7 @@ function Navbar() {
            
         </button>
       </div>
+      {/* Navbar Links */}
       <div className="links">
         <Link to="/"> Home </Link>
         <Link to="/projects"> Projects </Link>
