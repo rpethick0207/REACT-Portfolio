@@ -20,7 +20,7 @@ function Navbar() {
             setExpandNavbar((prev) => !prev);
           }}
         >
-          
+           
         </button>
       </div>
       <div className="links">

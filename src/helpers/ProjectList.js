@@ -8,6 +8,7 @@ export const ProjectList = [
     name: "Congress Confidental",
     image: Proj1, 
     skills: "JavaScript,HTML,CSS,API",
+    link: " https://ajjaswal.github.io/congress-confidential/"
   },
 //   {
 //     name: "Ecommerce Website",
@@ -18,5 +19,7 @@ export const ProjectList = [
     name: "Around Town",
     image: Proj3,
     skills: "React,Node.js,MongoDB",
+    link: "https://damp-cove-99714.herokuapp.com/"
   },
 ];
+
