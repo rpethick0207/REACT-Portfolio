@@ -46,7 +46,7 @@ This application is my personal portfolio of my projects. It features my name, p
     * Animated background
 
 ## Deployment
-![portfolio] (/portfolioimg.png)
+![portfolio](/portfolioimg.png)
 
 ## Contact/Questions
 This project was a collaboration of the following people: 
