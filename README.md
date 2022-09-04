@@ -49,7 +49,7 @@ This application is my personal portfolio of my projects. It features my name, p
 ![portfolio](/portfolioimg.png)
 
 ## Contact/Questions
-This project was a collaboration of the following people: 
+This project was created by 
 Github: https://github.com/rpethick0207
 
 # Getting Started with Create React App
